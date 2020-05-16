@@ -157,7 +157,29 @@ a,
     padding: 32% 0;
     background-attachment: fixed;
 }
-
+.jumbotron p {
+    font-size: 16px;
+    font-weight: 200;
+    float: right;
+    color: #8d8d8d;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20rem;
+    margin-bottom: 15rem;
+}
+.brnd_text h3 {
+    color: #8d8d8d;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    line-height: 1.4em;
+    margin: 0;
+}
+.brnd_text h1 {
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    font-size: 70px;
+    margin: 0;
+    letter-spacing: -2px;
+}
 /*home banner style ends here*/
 
 
@@ -172,7 +194,37 @@ a,
 /**********footer style starts here***********/
 
 
-
+.cnt_bg {
+    background-color: #000;
+    font-family: 'Quicksand', sans-serif;
+    padding: 6rem;
+}
+h2.let_talk {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: -2px;
+}
+a.emil_link {
+    color: #fff;
+    font-size: 75px;
+    text-decoration: none;
+    font-weight: 300;
+}
+.foot_client, .foot_work, .foot_about {
+    width: 30%;
+    float: left;
+}
+.go_top {
+    text-align: center;
+}
+a.client_link, a.client_work, a.client_about {
+    color: #fff;
+    text-decoration: none;
+}
+.foot_sitemap {
+    margin-top: 42px;
+}
 
 /***********footer style ends here*****************/
 
@@ -189,7 +241,7 @@ a,
 body {
     overflow-x: hidden !important;
 }
-	.cnt_bg {
+.cnt_bg {
     background-color: #000;
     font-family: 'Quicksand', sans-serif;
     padding: 2rem 4rem;
@@ -217,6 +269,10 @@ a.emil_link {
 }
 a.client_link, a.client_work, a.client_about {
     color: #fff;
+    text-decoration: none;
+}
+.foot_sitemap {
+    margin-top: 2px;
 }
 }
 
