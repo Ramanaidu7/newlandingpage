@@ -241,6 +241,14 @@ a.client_link, a.client_work, a.client_about {
 body {
     overflow-x: hidden !important;
 }
+.jumbotron {
+    background-image: url(https://ramanaidu7.github.io/newpage/images/Banner.png);
+    background-repeat: no-repeat;
+    background-position: 52% 0%;
+    padding: 123% 0;
+    background-attachment: fixed;
+    background-size: 300%;
+}
 .cnt_bg {
     background-color: #000;
     font-family: 'Quicksand', sans-serif;
