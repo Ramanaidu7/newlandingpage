@@ -191,7 +191,7 @@ a,
 
 
 .port_prax_img1 {
-    background-image: url(file:///C:/Users/Adunit/Desktop/new%20page/images/tile1paralax.jpg);
+    background-image: url('https://ramanaidu7.github.io/newpage/images/tile1paralax.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: 100% 0;
@@ -318,6 +318,22 @@ a.client_link, a.client_work, a.client_about {
 body {
     overflow-x: hidden !important;
 }
+/******menu mobile style*******/
+.navbar-brand {
+    float: none;
+}
+.navbar-brand img {
+    width: 50%;
+}
+.burger_box {
+    display: block;
+    float: none;
+    margin-left: -90px;
+}
+/********menu mobile style ends here*******/
+
+
+/********section 1 style starts here**********/
 .jumbotron {
     background-image: url('https://ramanaidu7.github.io/newpage/images/Banner.png');
     background-repeat: no-repeat;
@@ -325,7 +341,37 @@ body {
     padding: 123% 0;
     background-attachment: fixed;
     background-size: 300%;
+    margin-bottom: 20%;
 }
+.brnd_text h1 {
+    font-size: 40px;
+}
+.jumbotron p {
+    font-size: 20px;
+    font-weight: 300;
+    float: none;
+}
+
+/********section1 style ends here********/
+
+
+/********section 2 style starts here**********/
+.port_prax_img1 {
+    background-image: url(https://ramanaidu7.github.io/newpage/images/tile1paralax.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 100% 0;
+    padding: 10% 0 100% 0px;
+    overflow-x: hidden;
+}
+.slide1, .slide2, .slide3, .slide4, .slide5 {
+    padding-left: 4%;
+}
+/********section 2 style ends here********/
+
+
+/********footer style starts here********/
+
 .cnt_bg {
     background-color: #000;
     font-family: 'Quicksand', sans-serif;
@@ -359,6 +405,9 @@ a.client_link, a.client_work, a.client_about {
 .foot_sitemap {
     margin-top: 2px;
 }
+
+/********footer style ends here********/
+
 }
 
 
