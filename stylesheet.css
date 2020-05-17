@@ -198,18 +198,48 @@ a,
     padding: 5% 0 30% 0px;
     overflow-x: hidden;
 }
-/*.port_prax_img2 {
-    background-image: url('https://ramanaidu7.github.io/newpage/images/tile3paralax.jpg');
+.port_prax_img2 {
+    background-image: url('https://ramanaidu7.github.io/newpage/images/tile4paralax.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: 100% 0;
     padding: 5% 0 5% 0px;
     overflow-x: hidden;
-}*/
+}
+.port_prax_img3 {
+    background-image: url('https://ramanaidu7.github.io/newpage/images/tile3paralax.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 100% 0;
+    padding: 5% 0 30% 0px;
+    overflow-x: hidden;
+}
 .port_width {
     width: 100%;
     padding-left: 5%;
     margin: 0 auto;
+}
+img.pjt_side_img {
+    width: 93%;
+}
+.portf_text {
+    padding-left: 52px;
+    margin-top: 13.5%;
+    background-color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.portf_text p {
+    font-size: 26px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+.portf_text h1 {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 74px;
+    font-weight: 300;
 }
 .slider {
   margin: 20px auto;
