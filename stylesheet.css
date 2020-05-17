@@ -444,8 +444,8 @@ body {
 .slide1, .slide2, .slide3 {
    text-align: center;
 }
-.pjt_side_img img{
-	width: 100%;
+img.pjt_side_img {
+    width: 100%;
 }
 /********section 2 mobile style ends here********/
 
