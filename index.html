@@ -8,9 +8,12 @@
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;515;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha256-jDnOKIOq2KNsQZTcBTEnsp76FnfMEttF6AV2DF2fFNE=" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -49,7 +52,7 @@
   </div>
 </nav>
 
-<div class="jumbotron actn_bann">
+<div class="jumbotron actn_bann animate__animated animate__fadeInDown">
   <div class="container">      
     <p>In the ever fluctuating economic and business conditions,<br>
       we help organisations and brands observe and act upon possible opportunities<br>
@@ -64,43 +67,70 @@
   </div>
 </div>
   
-<div class="container-fluid bg-3 text-center">    
-  <h3>Some of my Work</h3><br>
+<div class="container-fluid port_prax_img1 port_width">    
   <div class="row">
-    <div class="col-sm-3">
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    <div class="col-sm-4">
+      <div class='slide'>
+        <div class='slide1'>
+          <img src="images/tile2StillImage.png">
+        </div>
+        <div class='slide2'>
+          <img src="images/tile6D.png">
+        </div>
+        <div class='slide3'>
+          <img src="images/tile6A.png">
+        </div>
     </div>
-    <div class="col-sm-3"> 
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+  </div>
+    <div class="col-sm-4">
+      <div class='slide'>
+        <div class='slide1'>
+          <img src="images/tile6B.png">
+        </div>
+        <div class='slide2'>
+          <img src="images/tile6C.png">
+        </div>
+        <div class='slide3'>
+          <img src="images/tile6D.png">
+        </div>
+    </div> 
+      
     </div>
-    <div class="col-sm-3"> 
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    <div class="col-sm-4"> 
+     <div class='slide'>
+        <div class='slide1'>
+          <img src="images/tile2StillImage.png">
+        </div>
+        <div class='slide2'>
+          <img src="images/tile6C.png">
+        </div>
+        <div class='slide3'>
+          <img src="images/tile6A.png">
+        </div>
     </div>
-    <div class="col-sm-3">
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
     </div>
   </div>
 </div><br>
 
-<div class="container-fluid bg-3 text-center">    
+<div class="container-fluid">    
   <div class="row">
-    <div class="col-sm-3">
+    <div class="col-sm-4">
       <p>Some text..</p>
       <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
     </div>
-    <div class="col-sm-3"> 
+    <div class="col-sm-8"> 
       <p>Some text..</p>
       <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
     </div>
-    <div class="col-sm-3"> 
+  </div>
+</div>
+<div class="container-fluid">    
+  <div class="row">
+    <div class="col-sm-8">
       <p>Some text..</p>
       <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
     </div>
-    <div class="col-sm-3">
+    <div class="col-sm-4"> 
       <p>Some text..</p>
       <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
     </div>
@@ -236,6 +266,21 @@ $(function(){
       $('nav').removeClass('scrolled');
     }
   });
+});
+
+</script>
+
+
+
+<script>
+
+
+$(document).ready(function () {
+  $('.port_sec').waypoint(function(direction){
+    $('.port_sec').addClass('animated ZoomIn')
+  }, {
+    offset: '50%'
+  }
 });
 
 

@@ -151,12 +151,17 @@ a,
 /*Home banner style starts here*/
 
 .jumbotron {
-    background-image: url('https://ramanaidu7.github.io/newpage/images/Banner.png');
+    background-image: url(https://ramanaidu7.github.io/newpage/images/Banner.png);
     background-repeat: no-repeat;
-    background-position: 40% 7%;
+    background-position: 100% 0%;
     padding: 32% 0;
     background-attachment: fixed;
+    background-size: cover;
+    animation-duration: 0.8s;
+    -webkit-animation-duration: 0.8s;
+    margin-bottom: 10%;
 }
+
 .jumbotron p {
     font-size: 16px;
     font-weight: 200;
@@ -181,6 +186,78 @@ a,
     letter-spacing: -2px;
 }
 /*home banner style ends here*/
+
+/**********portfolio styel here*********/
+
+
+.port_prax_img1 {
+    background-image: url(file:///C:/Users/Adunit/Desktop/new%20page/images/tile1paralax.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 100% 0;
+    padding: 5% 0 30% 0px;
+    overflow-x: hidden;
+}
+.port_width {
+    width: 100%;
+    padding-left: 5%;
+    margin: 0 auto;
+}
+.slider {
+  margin: 20px auto;
+  position: relative;
+}
+.slide1,.slide2,.slide3,.slide4,.slide5 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.slide1 {
+   /* background: url(file:///C:/Users/Adunit/Desktop/new%20page/images/tile2StillImage.png)no-repeat center;
+    background-size: contain;*/
+    animation: fade 30s infinite;
+    -webkit-animation: fade 30s infinite;
+    /*padding: 0 0 100% 0;*/
+} 
+.slide2 {
+  /*background: url('file:///C:/Users/Adunit/Desktop/new%20page/images/tile6A.png')no-repeat center;
+      background-size: cover;*/
+    animation:fade2 30s infinite;
+-webkit-animation:fade2 30s infinite;
+/*padding: 0 0 50% 0;*/
+}
+.slide3 {
+    /*background: url('file:///C:/Users/Adunit/Desktop/new%20page/images/tile6B.png')no-repeat center;
+      background-size: cover;*/
+    animation:fade3 30s infinite;
+-webkit-animation:fade3 30s infinite;
+/*padding: 0 0 50% 0;*/
+}
+@keyframes fade
+{
+  0%   {opacity:1}
+  33.333% { opacity: 0}
+  66.666% { opacity: 0}
+  100% { opacity: 1}
+}
+@keyframes fade2
+{
+  0%   {opacity:0}
+  33.333% { opacity: 1}
+  66.666% { opacity: 0 }
+  100% { opacity: 0}
+}
+@keyframes fade3
+{
+  0%   {opacity:0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
+  100% { opacity: 0}
+}
+
+
+/***********portfolio style ends here***************/
+
 
 
 /************testimonal style starts here**********/
@@ -242,7 +319,7 @@ body {
     overflow-x: hidden !important;
 }
 .jumbotron {
-    background-image: url(https://ramanaidu7.github.io/newpage/images/Banner.png);
+    background-image: url('https://ramanaidu7.github.io/newpage/images/Banner.png');
     background-repeat: no-repeat;
     background-position: 52% 0%;
     padding: 123% 0;
