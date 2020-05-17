@@ -1,17 +1,17 @@
 /*menu style code start here*/
 	
-	.scrolled {
+.scrolled {
   	min-height: 10px;
   	background: #250d59;
   	transition: ease-in-out 1s;
   	border-bottom: solid 2px #401891;
 }
-	.navbar {
+.navbar {
     border-radius: 0;
     min-height: 93px;
     transition: ease-in-out 1s;
     width: 100%;
-    padding: 0 9%;
+    padding: 0 6.5%;
     margin: 0 auto;
 }
 /* PEN STYLES ========== */
@@ -159,7 +159,7 @@ a,
     background-size: cover;
     animation-duration: 0.8s;
     -webkit-animation-duration: 0.8s;
-    margin-bottom: 10%;
+    margin-bottom: 0%;
 }
 
 .jumbotron p {
@@ -198,6 +198,14 @@ a,
     padding: 5% 0 30% 0px;
     overflow-x: hidden;
 }
+/*.port_prax_img2 {
+    background-image: url('https://ramanaidu7.github.io/newpage/images/tile3paralax.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 100% 0;
+    padding: 5% 0 5% 0px;
+    overflow-x: hidden;
+}*/
 .port_width {
     width: 100%;
     padding-left: 5%;
@@ -213,25 +221,16 @@ a,
   height: 100%;
 }
 .slide1 {
-   /* background: url(file:///C:/Users/Adunit/Desktop/new%20page/images/tile2StillImage.png)no-repeat center;
-    background-size: contain;*/
     animation: fade 30s infinite;
     -webkit-animation: fade 30s infinite;
-    /*padding: 0 0 100% 0;*/
 } 
 .slide2 {
-  /*background: url('file:///C:/Users/Adunit/Desktop/new%20page/images/tile6A.png')no-repeat center;
-      background-size: cover;*/
     animation:fade2 30s infinite;
 -webkit-animation:fade2 30s infinite;
-/*padding: 0 0 50% 0;*/
 }
 .slide3 {
-    /*background: url('file:///C:/Users/Adunit/Desktop/new%20page/images/tile6B.png')no-repeat center;
-      background-size: cover;*/
     animation:fade3 30s infinite;
 -webkit-animation:fade3 30s infinite;
-/*padding: 0 0 50% 0;*/
 }
 @keyframes fade
 {
@@ -262,9 +261,75 @@ a,
 
 /************testimonal style starts here**********/
 
-
-
-
+.clnt_title h2 {
+    padding: 5px 8%;
+    font-size: 60px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    letter-spacing: -3px;
+}
+.carousel-indicators {
+    position: absolute;
+    bottom: 294px;
+    left: 103%;
+    width: 12%;
+    padding-left: 0;
+    margin-left: -30%;
+}
+.carousel-indicators li {
+    width: 6px;
+    height: 6px;
+    cursor: pointer;
+    background-color: #000;
+    border: 1px solid #000;
+}
+.carousel-indicators .active {
+    width: 6px;
+    height: 6px;
+    margin: 1px;
+    background-color: darkgray;
+    border: solid darkgrey;
+}
+.item h4 {
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0 8%;
+    line-height: 1.4em;
+    font-size: 20px;
+    margin-bottom: 10%;
+}
+.carousel-inner {
+    margin-top: 2%;
+}
+span.clnt_name {
+    position: relative;
+    top: 26px;
+    font-weight: 800;
+    font-size: 28px;
+}
+span.clnt_cmp {
+    position: relative;
+    top: 26px;
+    font-weight: 400;
+}
+a.left.carousel-control {
+    width: 0;
+    left: 70%;
+    color: #000;
+    opacity: 1;
+    text-shadow: none;
+    font-size: 26px;
+    margin-top: -5.2%;
+}
+a.right.carousel-control {
+    width: 24%;
+    height: 0;
+    color: #000;
+    opacity: 1;
+    text-shadow: none;
+    font-size: 26px;
+    margin-top: -5%;
+}
 /**********testtimonial style ends here**********/
 
 
@@ -274,7 +339,7 @@ a,
 .cnt_bg {
     background-color: #000;
     font-family: 'Quicksand', sans-serif;
-    padding: 6rem;
+    padding: 6rem 11rem;
 }
 h2.let_talk {
     color: #fff;
@@ -302,7 +367,9 @@ a.client_link, a.client_work, a.client_about {
 .foot_sitemap {
     margin-top: 42px;
 }
-
+img.img_adunit {
+    margin-top: 8px;
+}
 /***********footer style ends here*****************/
 
 
@@ -333,7 +400,7 @@ body {
 /********menu mobile style ends here*******/
 
 
-/********section 1 style starts here**********/
+/********section 1 mobile style starts here**********/
 .jumbotron {
     background-image: url('https://ramanaidu7.github.io/newpage/images/Banner.png');
     background-repeat: no-repeat;
@@ -342,6 +409,8 @@ body {
     background-attachment: fixed;
     background-size: 300%;
     margin-bottom: 20%;
+    animation-duration: 0.8s;
+    -webkit-animation-duration: 0.8s;
 }
 .brnd_text h1 {
     font-size: 40px;
@@ -352,12 +421,20 @@ body {
     float: none;
 }
 
-/********section1 style ends here********/
+/********section1 mobile style ends here********/
 
 
-/********section 2 style starts here**********/
+/********section 2 mobile style starts here**********/
 .port_prax_img1 {
     background-image: url(https://ramanaidu7.github.io/newpage/images/tile1paralax.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 100% 0;
+    padding: 10% 0 100% 0px;
+    overflow-x: hidden;
+}
+.port_prax_img2 {
+    background-image: url(https://ramanaidu7.github.io/newpage/images/tile3paralax.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: 100% 0;
@@ -367,10 +444,41 @@ body {
 .slide1, .slide2, .slide3, .slide4, .slide5 {
    text-align: center;
 }
-/********section 2 style ends here********/
+/********section 2 mobile style ends here********/
 
 
-/********footer style starts here********/
+/*********testimonial mobile style strats here********************/
+
+.clnt_title {
+    margin-bottom: 20%;
+}
+.carousel-inner {
+    margin-top: 20%;
+}
+.carousel-indicators {
+    position: absolute;
+    bottom: 335px;
+    left: 31%;
+    width: 100%;
+    padding-left: 0;
+    margin-left: -34%;
+}
+a.left.carousel-control {
+    left: 12%;
+    font-size: xx-large;
+    margin-top: -11.2%;
+}
+a.right.carousel-control {
+    font-size: xx-large;
+    margin-top: -11%;
+    left: 242px;
+}
+
+/*********testimonial mobile style ends here*******/
+
+
+
+/********footer mobile style starts here********/
 
 .cnt_bg {
     background-color: #000;
@@ -406,7 +514,7 @@ a.client_link, a.client_work, a.client_about {
     margin-top: 2px;
 }
 
-/********footer style ends here********/
+/********footer mobile style ends here********/
 
 }
 
