@@ -365,7 +365,7 @@ body {
     overflow-x: hidden;
 }
 .slide1, .slide2, .slide3, .slide4, .slide5 {
-    padding-left: 4%;
+   text-align: center;
 }
 /********section 2 style ends here********/
 
