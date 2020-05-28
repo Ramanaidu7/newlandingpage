@@ -21,11 +21,10 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <!-- nav scroll color -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
  
   
 </head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="10">
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
         <div class="cursor">
           <div class="cursorInn">
             <div class="cursorhover"></div>
@@ -51,7 +50,7 @@
     <span></span>
     <span></span>
   
-    <ul id="menu" class="menuList hoverable">
+    <ul id="menu" class="menuList">
       <a href="#client"><li>Client</li></a>
       <a href="#work"><li>work</li></a>
       <a href="#about"><li>about</li></a>
@@ -120,7 +119,7 @@
     <div class="col-md-8">
       <img class="ark_img" src="images/tile5stillImage.png">
     </div>
-    <div class="col-md-4 slideanim">
+    <div class="col-md-4">
           
 <div id="slider">
 <figure>
@@ -150,7 +149,7 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner slideanim">
       <div class="item active">
-         <h4>“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.”<br><span class="clnt_name slideanim">John Ivne</span><br><span class="clnt_cmp slideanim">Vice President</span></h4>
+         <h4>“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.”<br><span class="clnt_name">John Ivne</span><br><span class="clnt_cmp">Vice President</span></h4>
       </div>
 
       <div class="item">
@@ -177,12 +176,12 @@
     
 
 
-<footer class="container cnt_bg">
+<footer class="container cnt_bg ">
   <h2 class="let_talk slideanim">Let's talk</h2>
   <a class="emil_link slideanim" href="mailto:hey@adunitplus.com">hey@adunitplus.com</a>
   <div class="row">
-    <div class="col-sm-4 mob_pad">
-      <div class="foot_sitemap slideanim">
+    <div class="col-sm-4 mob_pad slideanim">
+      <div class="foot_sitemap ">
           <div class="foot_client">
             <a id="client" href="#" class="client_link">Client</a>
           </div>
@@ -195,8 +194,8 @@
           <div style="clear: both;"></div>  
       </div>
     </div>
-    <div class="col-sm-4 mob_pad"> 
-      <div class="foot_sitemap slideanim">
+    <div class="col-sm-4 mob_pad slideanim"> 
+      <div class="foot_sitemap ">
           <div class="foot_client">
             <a href="#" class="client_link">Facebook</a>
           </div>
@@ -209,8 +208,8 @@
           <div style="clear: both;"></div>  
       </div>
     </div>
-    <div class="col-sm-4 go_top"> 
-     <a href="#myPage"> <img class="img_adunit slideanim" src="images/adunitlogo.png"> </a>
+    <div class="col-sm-4 go_top slideanim"> 
+     <a href="#myPage"> <img class="img_adunit" src="images/adunitlogo.png"> </a>
     </div>
 
 </div>
@@ -232,7 +231,7 @@ $(document).ready(function(){
       // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
       $('html, body').animate({
         scrollTop: $(hash).offset().top
-      }, 1200, function(){
+      }, 400, function(){
    
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
@@ -245,7 +244,7 @@ $(document).ready(function(){
       var pos = $(this).offset().top;
 
       var winTop = $(window).scrollTop();
-        if (pos < winTop + 1200) {
+        if (pos < winTop + 900) {
           $(this).addClass("slide");
         }
     });

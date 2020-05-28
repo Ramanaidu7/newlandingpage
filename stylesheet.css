@@ -415,18 +415,25 @@ body {
 .row{
   margin: 0;
 }
+.navbar-brand {
+    float: none;
+    height: 100px;
+    padding: 0;
+    line-height: 0px;
+}
 a.navbar-brand img {
     position: relative;
-    left: -65px;
+    left: 0;
     width: 50%;
     transition: unset;
+    margin-top: 20px;
 }
 .navbar {
     background: #250d59;
 }
 .shrink .navbar-brand img {
     position: relative;
-    left: -4em !important;
+    left: 0;
     width: 15%;
 }
 
@@ -583,7 +590,7 @@ div#slider figure {
   @keyframes slide {
     0% {
       opacity: 0;
-      transform: translateY(90%);
+      transform: translateY(50%);
     }
     100% {
       opacity: 1;
@@ -593,7 +600,7 @@ div#slider figure {
   @-webkit-keyframes slide {
     0% {
       opacity: 0;
-      -webkit-transform: translateY(90%);
+      -webkit-transform: translateY(50%);
     }
     100% {
       opacity: 1;
